@@ -106,6 +106,30 @@ footer {
   margin-top: 20px;
 }
 
+/* Designer Credit */
+#designer {
+  text-align: center;
+  padding: 15px;
+  background: #f1f5f9;
+  margin-top: 10px;
+}
+.designer-container p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #1f3b5b;
+}
+.designer-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* space between photo and name */
+  justify-content: center;
+}
+.designer-info img {
+  width: 110px;   /* fixed width */
+  height: 110px;  /* fixed height */
+  border-radius: 0; /* rectangular, no rounded corners */
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   /* Header */
@@ -135,4 +159,5 @@ footer {
   .hero h2 { font-size: 20px; }
   .hero p { font-size: 14px; }
   .about-logo img { max-width: 120px; }
+  .designer-info img { width: 50px; height: 50px; } /* smaller on very small screens */
 }
